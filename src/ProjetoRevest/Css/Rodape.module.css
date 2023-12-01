@@ -1,0 +1,16 @@
+.rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 0;
+    background-color: #051142;
+    color: aliceblue;
+}
+
+
+@media screen and (max-width: 900px) {
+    .rodape h1{
+        font-size: 25px;
+    }
+}

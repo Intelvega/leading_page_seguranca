@@ -1,0 +1,155 @@
+.class80{
+    width: 80%;
+    margin-top: 70px;
+}
+
+.principal{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.class50{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.class50 h2{
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+.class50 p{
+    font-size: 25px;
+}
+
+.class50 img {
+    width: 70%;
+    /* margin-left: 70px;
+    min-width: 500px; */
+}
+
+.class100{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.class100 div {
+    margin: 0;
+    width: 30.3%;
+    background-color:#051142;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    
+}
+
+.contDiv{
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contDiv h3{
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.contDiv p{
+    width: 80%;
+    font-size: 20px;
+}
+
+.contDiv svg{
+   font-size: 20px;
+}
+
+.contDiv li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    
+}
+
+
+@media screen  and (max-width: 1200px) {
+    .class50 p{
+        font-size: 20px;
+    }
+
+    .contDiv h3{
+        padding-bottom: 20px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .contDiv p{
+        width: 90%;
+        font-size: 16px;
+    }
+}
+
+@media screen  and (max-width: 900px) {
+    .class50 p{
+        font-size: 18px;
+        color: black;
+    }
+
+    .class50 h2{
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+
+    .principal{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        
+    }
+
+    .class50 img {
+        width: 100%;
+    }
+
+    .contDiv p{
+        width: 80%;
+        font-size: 14px;
+    }
+}
+
+
+@media screen  and (max-width: 800px) {
+    .class100{
+        display: flex;
+        flex-direction: column;
+        width: 100% !important;
+    }
+
+    .class100 div{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .contDiv h3{
+        padding-bottom: 20px;
+        font-size: 35px;
+        font-weight: bold;
+    }
+
+    .contDiv p{
+        width: 90%;
+        font-size: 22px;
+    }
+}

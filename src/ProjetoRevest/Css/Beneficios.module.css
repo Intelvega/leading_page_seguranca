@@ -1,0 +1,106 @@
+.beneficio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    color: #ffffff;
+    background-color: #051142;
+    height: 700px;
+
+}
+
+.beneficio h1 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.conteudo{
+    display: flex;
+    width: 80%;
+}
+
+.carro1{
+    max-width: 40%;
+    border-radius: 50px;
+}
+
+.divs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    flex-wrap: wrap;
+}
+
+.divs div{
+    color: #ffffff;
+    margin-bottom: 10px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fonte{
+    font-size: 22px;
+}
+
+@media screen and (max-width: 1380px) {
+
+    .fonte{
+        font-size: 18px;
+    }
+
+    .conteudo{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .carro1{
+        width: 40%;
+        max-width: 50%;
+        height: 80%;
+        margin: 40px;
+    }
+    
+}
+
+@media screen and (max-width: 800px) {
+
+    .fonte{
+        font-size: 14px;
+    }
+
+    .beneficio{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        color: #ffffff;
+        background-color: #051142;
+        height: 800px;
+    
+    }
+
+    .conteudo{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .divs{
+        width: 80%;
+    }
+
+    .divs div{
+        width: 40%;
+        padding: 10px;
+    }
+
+    .fonte{
+        font-size: 20px;
+    }
+    
+}

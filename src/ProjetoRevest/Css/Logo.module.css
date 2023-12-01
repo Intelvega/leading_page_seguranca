@@ -1,0 +1,10 @@
+.logotipo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.logotipo img{
+    width: 100%;
+}

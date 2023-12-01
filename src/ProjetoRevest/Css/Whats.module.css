@@ -1,0 +1,16 @@
+.logoWhats {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999; /* Certifique-se de que está em uma pilha superior para cobrir outros elementos */
+    background-color: #25d366; /* Cor de fundo do ícone */
+    border-radius: 50%; /* Tornar o ícone redondo, se desejar */
+    padding: 10px; /* Espaçamento interno do ícone */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adicionar sombra ao ícone */
+
+}
+
+.logoWhats svg {
+    font-size: 50px;
+    color: rgb(41, 173, 7)
+}

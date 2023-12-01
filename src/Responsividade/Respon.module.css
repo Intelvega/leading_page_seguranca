@@ -1,0 +1,117 @@
+.titulo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+    padding: 20px 0px 20px 0px;
+    color: black;
+    background-color: rgb(26, 122, 122);
+}
+
+.conteudo{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.texto{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.texto div {
+    width: 40%;
+}
+
+.texto div h1{
+    margin-bottom: 15px;
+    color: rgb(22, 197, 121);
+}
+
+.texto div p{
+    text-align: justify;
+}
+
+.image{
+    max-width: 50%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 20px 0px 20px 0px;
+    color: black;
+    background-color: rgb(26, 122, 122);
+    width: 100%;
+}
+
+.rodape p{
+    font-size: 18px;
+    color: black;
+}
+.rodape p span{
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1529px) {
+    .texto div h1{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    .conteudo{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .texto div h1{
+        font-size: 25px;
+    }
+
+    .texto div p{
+        font-size: 20px;
+    }
+
+    .texto{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .texto div {
+        width: 80%;
+        margin-bottom: 10px;
+    }
+
+    .image{
+        max-width: 50%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    .titulo .rodape h1{
+        font-size: 28px;
+    }
+
+    .texto div h1{
+        font-size: 23px;
+    }
+
+    .texto div p{
+        font-size: 18px;
+    }
+
+}

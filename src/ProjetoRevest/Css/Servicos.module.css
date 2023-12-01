@@ -1,0 +1,104 @@
+.todoServer {
+    width: 100%;
+    margin: auto;
+    padding: 10px; /* Adicione um espaço ao redor do conteúdo */
+}
+
+
+.ofere {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    width: 100%; /* Largura máxima de 100% */
+    /* background-color: aqua; */
+    text-align: center; /* Centraliza o texto */
+}
+
+
+.servicos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap; /* Permite que os elementos quebrem para a próxima linha */
+}
+
+.server, .serverUlt{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+}
+
+.server p{
+    margin-bottom: 8px;
+    font-size: 24px;
+    color: black;
+    /* background-color: aqua; */
+}
+
+.server img{
+    max-width: 60%;
+}
+
+
+
+.serverUlt img{
+    max-width: 50%;
+}
+
+.serverUlt p {
+    font-size: 26px;
+    color: black;
+}
+
+@media (max-width: 1244px) {
+
+    .server, .serverUlt{
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .server p, .serverUlt p {
+        font-size: 20px;
+    }
+
+    .server img{
+        max-width: 50%;
+    }
+
+    .serverUlt img{
+        max-width: 50%;
+    }
+
+}
+
+@media (max-width: 800px) {
+
+    .ofere{
+        font-size: 20px;
+    }
+
+    .server, .serverUlt{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .server p, .serverUlt p {
+        font-size: 17px;
+    }
+
+    .server img, .serverUlt img{
+        max-width: 50%;
+        margin-bottom: 50px;
+    }
+
+}
